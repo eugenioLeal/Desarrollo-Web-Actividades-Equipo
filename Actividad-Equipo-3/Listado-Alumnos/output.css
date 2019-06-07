@@ -1,0 +1,39 @@
+@media (max-width: 480px) {
+  .logo_tec {
+    width: 80px;
+    height: auto;
+  }
+
+  main h3 {
+    color: #42525A;
+  }
+
+  table img {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .logo_tec {
+    width: 150px;
+    height: auto;
+  }
+
+  main h3 {
+    color: blue;
+  }
+}
+@media (min-width: 1024px) {
+  .logo_tec {
+    width: 200px;
+    height: auto;
+  }
+
+  main h3 {
+    color: red;
+  }
+}
+html {
+  text-align: center;
+}
+
+/*# sourceMappingURL=output.css.map */

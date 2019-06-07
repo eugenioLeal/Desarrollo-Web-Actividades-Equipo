@@ -1,0 +1,23 @@
+nav {
+    display: inline;
+    background-color: black;
+}
+
+.logo_tec {
+    width: 300px;
+    height: auto;
+}
+
+body {
+    width: 800px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+table {
+    text-align: center;
+}
+
+html {
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #42525A;
+$secondary-color: #0F406C;
+$alert-color: red;
+$success-color: green;
+// $warning-color: yellow;
+$caso1: "(max-width: 480px)";
+$caso2: "(min-width: 481px) and (max-width: 1024px)";
+$caso3: "(min-width: 1024px)";
+
+@mixin flex {
+    display: -webkit-flex;
+    display: flex;
+}
+
+@media #{$caso1} {
+    .logo_tec {
+        width: 80px;
+        height: auto;
+    }
+    main {
+        h3 {
+           color: $primary-color; 
+        }
+    }
+    table {
+        img {
+            display:none;
+        }
+    }
+}
+
+@media #{$caso2} {
+    .logo_tec {
+        width: 150px;
+        height: auto;
+    }
+    main {
+        h3 {
+           color: blue; 
+        }
+    }
+}
+
+@media #{$caso3} {
+    .logo_tec {
+        width: 200px;
+        height: auto;
+    }
+    main {
+        h3 {
+           color: $alert-color; 
+        }
+    }
+}
+
+html {
+    text-align: center;
+}
