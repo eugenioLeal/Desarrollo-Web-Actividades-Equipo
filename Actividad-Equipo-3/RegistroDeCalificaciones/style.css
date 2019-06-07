@@ -1,0 +1,59 @@
+@media (max-width: 480px) {
+  h1 {
+    color: red; }
+
+  p {
+    color: red; }
+
+  h2, h3 {
+    color: grey; }
+
+  body {
+    text-align: center; } }
+@media (min-width: 481px) and (max-width: 1024px) {
+  h1 {
+    color: blue; }
+
+  body {
+    text-align: center; }
+
+  body {
+    height: 800px;
+    width: 800px; } }
+@media (min-width: 1024px) {
+  h1 {
+    color: blue; }
+
+  body {
+    text-align: center; }
+
+  body {
+    height: 800px;
+    width: 980px; } }
+* {
+  box-sizing: border-box; }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  /* height: 300px; /* Should be removed. Only for demonstration */ }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+div {
+  background-color: lightblue; }
+
+input {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background-color: lightblue;
+  border-color: white; }
+
+/*# sourceMappingURL=style.css.map */
